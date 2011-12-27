@@ -1,0 +1,17 @@
+This directory contains various x.509 files made with TinyCA2 (simple
+GUI wrapper for OpenSSL for CA management - http://tinyca.sm-zone.net/).
+
+The files are
+-------------
+
+  * cacert.pem - CA certificate (used for ca_certs)
+  * cacert.key - CA private key (used for signing certificate requests)
+  * server.crt - CA signed certificate for common name "localhost"
+  * server.key - server private key
+  * client.pem - CA signed client certificate
+  * client.key - client private key
+
+*.csr files are signing requests for CA.
+
+Passwords are removed from private keys for convenience.
+
